@@ -24,7 +24,7 @@ class Checkout extends Component {
     render(){
     const submitHandler = (e) => {
             e.preventDefault();
-            prompt("Success ");
+            
             // dispatch(saveShipping({ address, city, postalCode, country }));
             // props.history.push('payment');
     }
